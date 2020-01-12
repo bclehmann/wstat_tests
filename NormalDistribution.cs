@@ -10,8 +10,8 @@ namespace Where1.wstat_tests
 	public class NormalDistribution
 	{
 		[TestMethod]
-		public void NormalDistributionTest()
-		{//About 5 seconds on my machine
+		public void NormalDistributionTest()//About 5s on my machine
+		{
 			int runs = 10000;
 			Random rand = new Random();
 
